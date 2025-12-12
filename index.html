@@ -58,7 +58,7 @@
             <p class="text-gray-600  mb-4">Join our mission to plant 1 million trees and make the Earth greener for future<br>generations</p>
           
           <div>
-            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-warning">Get In volved</button>
           </div>
         </div>
         <div>
@@ -68,12 +68,23 @@
     </section>
 
     <section>
-     <div class="w-full h-[873px] flex flex-col border-2 border-red-500-500">
+     <div class="w-full h-[873px] flex flex-col  bg-[#dcfce7]">
       
         <h1 class="text-4xl font-bold text-center justify-between py-3 mb-8">Choose Yours Trees</h1>
-      <div id="categories">
+      <main>
+        <div class="w-[250px] h-[479px] shadow-lg gap-6   ">
+        <h1 class="text-3xl font-bold text-center">Category</h1>
+       <li class="font-medium text-medium">All Trees</li>
+       <div class="categories font-medium text-medium" id="categoryContainer">
 
-      </div>
+       </div>
+       </div>
+       <div class="treeContainer">
+
+       </div>
+        
+      </main>
+    </div>
      
      </div>
     </section>
@@ -96,6 +107,59 @@
        
       </div>
     </section>
-     
+
+    <section>
+        <div class="w-full h-[436px] bg-[#cff0dc]">
+        <div>
+            <h1 class="text-center font-bold py-15 text-4xl  ">Our Impact</h1>
+        </div>
+        <div class=" max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-6  mx-auto ">
+        
+        <div class="w-[516px] h-[156px] justify-between items-center p-8 bg-white">
+            <h1 class="text-4xl text-center font-bold text-[#15803d]">500K+</h1>
+            <p class="text-center text-[#1f2937]">trees planted</p>
+        </div>
+        <div class="w-[516px] h-[156px] justify-between p-8 items-center bg-white">
+            <h1 class="text-4xl text-center font-bold text-[#15803d]">120+</h1>
+            <p class="text-center text-[#1f2937]">communities Involved</p>
+        </div>
+        <div class="w-[516px] h-[156px] justify-between p-8 items-center bg-white">
+            <h1 class="text-4xl text-center font-bold text-[#15803d]">30+</h1>
+            <p class="text-center text-[#1f2937]">Countries Reached</p>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="w-[1920px] h-[591px] bg-[#166534] flex items-center justify-between px-135">
+            <div class="w-[650px] h-[350px] bg-[#15803d] box-shadow: 0px 4px 22px 0px p-6 gap-2 flex flex-col">
+                   <div class="mt-4">
+                     
+                     <input id="account-number" type="text" placeholder="Your Name"  class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full" />
+                </div>
+                <div class="mt-2">
+                    
+                    <input id="add-amount" type="text" placeholder="Your Email address"  class="input bg-[#f4f5f7] mt-3 rounded-3xl w-full" />
+                </div>
+                 <div class="mb-2">
+                    
+                    <select class="select select-accent  bg-[#f4f5f7] mt-3 rounded-3xl w-full">
+                    <option selected disabled>Number Of Trees</option>
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+                    </select>
+                 </div>
+                 <button id="add-money-btn" class="btn text-[#15803d] bg-[#facc15] mt-5 w-full rounded-3xl" >Donate Now</button>
+        </div>
+    </section>
+
+    <section >
+      <div class="w-[1920px] h-[72px] flex text-center items-center justify-between  bg-[#14532d]  px-180 text-[#ffffff] font-16px">
+         <p class=" ">© 2025 Green Earth. All Rights Reserved</p>
+      </div>
+    </section>
+   <script src="./index.js"></script>  
 </body>
 </html>
